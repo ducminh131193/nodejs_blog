@@ -9,6 +9,7 @@ app.get("/testjs", (req, res) => {
     var b = 5;
 
     var c = a + b;
+    var d = 9;
   res.send("Hello World!");
 });
 
